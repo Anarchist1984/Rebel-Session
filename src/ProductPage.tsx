@@ -45,7 +45,7 @@ function ProductPage() {
         <div className="bg-gradient-to-br from-blue-500/10 to-orange-500/10 p-8 rounded-2xl border border-blue-900/30 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Key Features</h2>
           <ul className="space-y-4">
-            {product.features.map((feature, index) => (
+            {product.features.map((feature:Array<String>, index:) => (
               <li key={index} className="flex items-start gap-3">
                 <Sparkles className="w-6 h-6 text-orange-500" />
                 <span className="text-lg text-gray-400">{feature}</span>
