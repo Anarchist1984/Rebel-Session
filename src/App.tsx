@@ -1,4 +1,3 @@
-import React from 'react';
 import { Bot, Sparkles, Brain, Zap } from 'lucide-react';
 import { Navbar } from './components/Navbar';
 import { ProductCard } from './components/ProductCard';
@@ -13,7 +12,7 @@ function App() {
         <div className="container mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-orange-500/10 rounded-full text-orange-400 mb-6">
             <Sparkles className="w-4 h-4" />
-            <span>Building the future of automation</span>
+            <span>AI Tools Today, Not Tommorow</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 via-blue-400 to-orange-500 text-transparent bg-clip-text">
             Your Personal Digital Assistant
@@ -21,7 +20,7 @@ function App() {
           <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-12">
             We're a small team of developers passionate about making your
             digital life easier. Our upcoming tools will revolutionize how you
-            research and manage emails.
+            do your daily tasks.
           </p>
           <div className="flex gap-4 justify-center">
             <button className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-full font-semibold transition-all flex items-center gap-2">
@@ -69,7 +68,7 @@ function App() {
               <div className="space-y-6 text-lg text-gray-400">
                 <p>
                   As developers, we've experienced the daily challenges of
-                  information overload and email management. We believe
+                  information overload and management. We believe
                   automation should feel personal and adapt to your unique
                   workflow.
                 </p>
@@ -143,9 +142,6 @@ function App() {
             <span className="font-semibold">Rebel Session</span>
           </div>
           <div className="flex items-center gap-6 text-gray-400">
-            <a href="#" className="hover:text-orange-500 transition-colors">
-              Twitter
-            </a>
             <a href="#" className="hover:text-orange-500 transition-colors">
               GitHub
             </a>
